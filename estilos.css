@@ -1,0 +1,63 @@
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  body{
+	background: #D4D4D4; 
+	font-family: 'Open sans';
+}
+
+form{
+	width:500px;
+	padding:20px;
+	border-radius:10px;
+	margin:auto;
+	background-color: white;
+    text-align: center;
+}
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+ }
+
+ .search-container {
+    display: flex;
+    flex-wrap: wrap; 
+    float: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+
+  .table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background:#E5E2D0; 
+    color: #000;
+    text-align: center; 
+    vertical-align: middle;
+ }
+
+ .td, th {
+    background: #fff;
+    color: #000;
+    text-align: center; 
+    vertical-align: middle;
+ }
+
+ .tr{
+    text-align: center; 
+    vertical-align: middle;
+ }
+
+ .name-flag{
+     width: 250px;
+     height: 150px;
+ }
